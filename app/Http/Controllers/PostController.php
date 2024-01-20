@@ -36,7 +36,7 @@ class PostController extends Controller
         ]);
 
         //フォームの入力内容をもとに、テーブルにデータを追加する
-        $posts = new Posts();
+        $posts = new Post();
         $posts->title = $request->input('title');
         $posts->content = $request->input('content');
         $posts->save();
