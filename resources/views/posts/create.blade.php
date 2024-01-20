@@ -30,11 +30,11 @@
             <tr>
                 <th>本文</th>
                 <td>
-                    <input type="text" name="content">
+                    <textarea name="content"></textarea>
                 </td>
             </tr>
         </table>
-        <input type="submit" value="登録">
+        <input type="submit" value="投稿">
     </form>
 </body>
 </html>
